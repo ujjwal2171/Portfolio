@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fjalla one', sans-serif;
+    text-align: center;
+    
+
+}
+
+h1 ,.skill, p , h2 {
+    padding-bottom: 15px;
+}
+
+.bio {
+    padding-left: 15dvb;
+    padding-right: 15dvb;
+    color:rgb(42, 42, 42);
+}
+
+h1 {
+    font-size: 52px;
+    color:rgb(42, 42, 42);
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.phont {
+    margin: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    margin-bottom: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    color:rgb(42, 42, 42);
+}
+
+.grey {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color:rgb(42, 42, 42);
+}
+
+
+a:hover {
+    color: white;
+    background-color: black;
+    background-blend-mode: color-burn;
+}
+
+p{
+    line-height: 1.4;
+    
+}
+.link{
+    text-decoration: none;
+}
+
+
